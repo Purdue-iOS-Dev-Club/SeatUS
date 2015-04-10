@@ -14,6 +14,8 @@
 		5E93D2031AD876E4002286E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E93D2021AD876E4002286E6 /* Images.xcassets */; };
 		5E93D2061AD876E4002286E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E93D2041AD876E4002286E6 /* LaunchScreen.xib */; };
 		5E93D2121AD876E5002286E6 /* SeatUSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E93D2111AD876E5002286E6 /* SeatUSTests.swift */; };
+		5E93D21C1AD878EE002286E6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E93D21B1AD878EE002286E6 /* RegisterViewController.swift */; };
+		5E93D21E1AD879AA002286E6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E93D21D1AD879AA002286E6 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5E93D20B1AD876E5002286E6 /* SeatUSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatUSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E93D2101AD876E5002286E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E93D2111AD876E5002286E6 /* SeatUSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatUSTests.swift; sourceTree = "<group>"; };
+		5E93D21B1AD878EE002286E6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5E93D21D1AD879AA002286E6 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +87,11 @@
 				5E93D1FB1AD876E4002286E6 /* MasterViewController.swift */,
 				5E93D1FD1AD876E4002286E6 /* DetailViewController.swift */,
 				5E93D1FF1AD876E4002286E6 /* Main.storyboard */,
+				5E93D21B1AD878EE002286E6 /* RegisterViewController.swift */,
 				5E93D2021AD876E4002286E6 /* Images.xcassets */,
 				5E93D2041AD876E4002286E6 /* LaunchScreen.xib */,
 				5E93D1F71AD876E4002286E6 /* Supporting Files */,
+				5E93D21D1AD879AA002286E6 /* Customer.swift */,
 			);
 			path = SeatUS;
 			sourceTree = "<group>";
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E93D1FE1AD876E4002286E6 /* DetailViewController.swift in Sources */,
+				5E93D21E1AD879AA002286E6 /* Customer.swift in Sources */,
 				5E93D1FC1AD876E4002286E6 /* MasterViewController.swift in Sources */,
 				5E93D1FA1AD876E4002286E6 /* AppDelegate.swift in Sources */,
+				5E93D21C1AD878EE002286E6 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
